@@ -1,0 +1,504 @@
+/* =====================================
+   CONFIGURAÇÕES GERAIS
+===================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+
+    background: #080808;
+
+    color: white;
+
+    overflow-x: hidden;
+}
+
+
+/* =====================================
+   SEÇÕES
+===================================== */
+
+section {
+    min-height: 100vh;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+    padding: 60px 10%;
+}
+
+
+/* =====================================
+   TEXTOS PEQUENOS
+===================================== */
+
+.small-title {
+    display: block;
+
+    font-size: 13px;
+
+    letter-spacing: 5px;
+
+    text-transform: uppercase;
+
+    opacity: 0.55;
+
+    margin-bottom: 25px;
+}
+
+
+/* =====================================
+   ABERTURA
+===================================== */
+
+.hero {
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.95)
+        ),
+
+        url("https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&w=2000&q=80");
+
+    background-size: cover;
+
+    background-position: center;
+
+    text-align: center;
+}
+
+
+.hero-content {
+    max-width: 900px;
+}
+
+
+.hero h1 {
+    font-size: clamp(60px, 10vw, 140px);
+
+    line-height: 0.9;
+
+    font-weight: 800;
+}
+
+
+.hero p {
+    margin-top: 35px;
+
+    font-size: 20px;
+
+    opacity: 0.75;
+}
+
+
+.scroll {
+    position: absolute;
+
+    bottom: 30px;
+
+    font-size: 12px;
+
+    letter-spacing: 2px;
+
+    opacity: 0.45;
+
+    animation: bounce 2s infinite;
+}
+
+
+@keyframes bounce {
+
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+}
+
+
+/* =====================================
+   SEÇÕES DE HISTÓRIA
+===================================== */
+
+.story {
+    text-align: center;
+
+    overflow: hidden;
+}
+
+
+.story-content {
+    max-width: 900px;
+
+    position: relative;
+
+    z-index: 2;
+}
+
+
+.story h2 {
+    font-size: clamp(40px, 6vw, 80px);
+
+    line-height: 1.05;
+
+    margin-bottom: 30px;
+}
+
+
+.story p {
+    font-size: 20px;
+
+    line-height: 1.8;
+
+    color: #bdbdbd;
+
+    margin-bottom: 15px;
+}
+
+
+.story-number {
+    position: absolute;
+
+    font-size: 220px;
+
+    font-weight: 800;
+
+    opacity: 0.035;
+
+    user-select: none;
+}
+
+
+.highlight-text {
+    color: white !important;
+
+    font-size: 35px !important;
+
+    font-weight: 700;
+}
+
+
+/* =====================================
+   SEÇÕES COM FOTO
+===================================== */
+
+.photo-section {
+    padding: 0;
+
+    min-height: 100vh;
+
+    background-size: cover;
+
+    background-position: center;
+}
+
+
+.brasilia {
+
+    background-image:
+
+        linear-gradient(
+            rgba(0,0,0,0.2),
+            rgba(0,0,0,0.95)
+        ),
+
+        url("https://images.unsplash.com/photo-1588959871120-7aee2c0e6c5e?auto=format&fit=crop&w=2000&q=80");
+
+}
+
+
+.onibus {
+
+    background-image:
+
+        linear-gradient(
+            rgba(0,0,0,0.2),
+            rgba(0,0,0,0.95)
+        ),
+
+        url("https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=2000&q=80");
+
+}
+
+
+.photo-overlay {
+    width: 100%;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    align-items: flex-end;
+
+    padding: 10%;
+}
+
+
+.photo-text {
+    max-width: 850px;
+}
+
+
+.photo-text h2 {
+    font-size: clamp(45px, 7vw, 90px);
+
+    line-height: 1;
+
+    margin-bottom: 25px;
+}
+
+
+.photo-text p {
+    font-size: 20px;
+
+    line-height: 1.7;
+
+    color: #ccc;
+
+    max-width: 700px;
+}
+
+
+/* =====================================
+   AMOR
+===================================== */
+
+.love-section {
+    background:
+        radial-gradient(
+            circle at center,
+            #24151d,
+            #080808 70%
+        );
+}
+
+
+/* =====================================
+   PLOT TWIST
+===================================== */
+
+.plot-twist {
+
+    min-height: 100vh;
+
+    background: #050505;
+
+    text-align: center;
+
+}
+
+
+.plot-twist > div {
+    max-width: 900px;
+}
+
+
+.dramatic {
+
+    display: block;
+
+    font-size: 13px;
+
+    letter-spacing: 5px;
+
+    color: #ff3b3b;
+
+    margin-bottom: 30px;
+
+}
+
+
+.plot-twist h2 {
+
+    font-size: clamp(60px, 10vw, 130px);
+
+    line-height: 0.9;
+
+    color: #ff3b3b;
+
+}
+
+
+.plot-twist p {
+
+    font-size: 23px;
+
+    line-height: 1.7;
+
+    color: #ccc;
+
+    margin-top: 30px;
+
+}
+
+
+.revelation {
+
+    background:
+
+        radial-gradient(
+            circle at center,
+            #250909,
+            #050505 65%
+        );
+
+}
+
+
+.small-note {
+
+    font-size: 14px !important;
+
+    opacity: 0.5;
+
+    margin-top: 60px !important;
+
+}
+
+
+/* =====================================
+   TRABALHO
+===================================== */
+
+.work-section {
+
+    background:
+
+        radial-gradient(
+            circle at center,
+            #151515,
+            #080808 70%
+        );
+
+}
+
+
+/* =====================================
+   FINAL
+===================================== */
+
+.final {
+
+    min-height: 100vh;
+
+    text-align: center;
+
+    background:
+
+        radial-gradient(
+            circle at center,
+            #222,
+            #050505 70%
+        );
+
+}
+
+
+.final h2 {
+
+    font-size: clamp(50px, 8vw, 110px);
+
+    line-height: 0.95;
+
+}
+
+
+.final p {
+
+    max-width: 750px;
+
+    margin: 40px auto 0;
+
+    font-size: 21px;
+
+    line-height: 1.7;
+
+    color: #aaa;
+
+}
+
+
+.final strong {
+
+    color: white;
+
+}
+
+
+/* =====================================
+   CELULAR
+===================================== */
+
+@media (max-width: 768px) {
+
+    section {
+        padding: 40px 7%;
+    }
+
+
+    .hero h1 {
+        font-size: 70px;
+    }
+
+
+    .story p,
+    .photo-text p,
+    .plot-twist p,
+    .final p {
+
+        font-size: 17px;
+
+    }
+
+
+    .story-number {
+        font-size: 130px;
+    }
+
+
+    .photo-overlay {
+        padding: 10% 7%;
+    }
+
+}
+
+/* =====================================
+   ANIMAÇÃO DE ENTRADA
+===================================== */
+
+.antes {
+
+    opacity: 0;
+
+    transform: translateY(60px);
+
+    transition:
+        opacity 1s ease,
+        transform 1s ease;
+
+}
+
+
+.aparecer {
+
+    opacity: 1;
+
+    transform: translateY(0);
+
+}

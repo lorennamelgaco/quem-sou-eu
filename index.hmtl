@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quem sou eu?</title>
+
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =================================
+         ABERTURA
+    ================================== -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <span class="small-title">
+                QUEM SOU EU?
+            </span>
+
+            <h1>
+                Minha<br>
+                história.
+            </h1>
+
+            <p>
+                Uma pequena viagem pela pessoa que eu me tornei.
+            </p>
+
+        </div>
+
+        <div class="scroll">
+            ↓ ROLE PARA CONTINUAR ↓
+        </div>
+
+    </section>
+
+
+    <!-- =================================
+         BRASÍLIA
+    ================================== -->
+
+    <section class="photo-section brasilia">
+
+        <div class="photo-overlay">
+
+            <div class="photo-text">
+
+                <span class="small-title">
+                    CAPÍTULO 01
+                </span>
+
+                <h2>
+                    Eu vim de Brasília.
+                </h2>
+
+                <p>
+                    Foi lá que começou a minha história.
+                    Mas em algum momento eu percebi que
+                    precisava sair da minha zona de conforto
+                    e descobrir o que existia além dela.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================
+         MUDANÇA
+    ================================== -->
+
+    <section class="story">
+
+        <div class="story-number">
+            01
+        </div>
+
+        <div class="story-content">
+
+            <span class="small-title">
+                A DECISÃO
+            </span>
+
+            <h2>
+                Então eu fiz uma coisa meio maluca.
+            </h2>
+
+            <p>
+                Peguei minhas coisas, deixei Brasília para trás
+                e vim para São Paulo.
+            </p>
+
+            <p class="highlight-text">
+                Sozinha.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================
+         ÔNIBUS
+    ================================== -->
+
+    <section class="photo-section onibus">
+
+        <div class="photo-overlay">
+
+            <div class="photo-text">
+
+                <h2>
+                    Uma mala.<br>
+                    Um ônibus.<br>
+                    E coragem.
+                </h2>
+
+                <p>
+                    Eu não tinha exatamente certeza
+                    de como tudo ia acontecer.
+                    Só sabia que precisava ir.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================
+         AMOR
+    ================================== -->
+
+    <section class="story love-section">
+
+        <div class="story-number">
+            02
+        </div>
+
+        <div class="story-content">
+
+            <span class="small-title">
+                O MOTIVO
+            </span>
+
+            <h2>
+                ❤️ Eu vim por amor.
+            </h2>
+
+            <p>
+                Naquela época, eu estava namorando uma garota
+                e decidi apostar tudo nessa história.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================
+         PLOT TWIST
+    ================================== -->
+
+    <section class="plot-twist">
+
+        <div>
+
+            <span class="dramatic">
+                ⚠️ PLOT TWIST
+            </span>
+
+            <h2>
+                Só que...
+            </h2>
+
+            <p>
+                A vida decidiu que minha história precisava
+                de um pouco mais de emoção.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================
+         A REVELAÇÃO
+    ================================== -->
+
+    <section class="plot-twist revelation">
+
+        <div>
+
+            <span class="dramatic">
+                E AQUI A HISTÓRIA FICA ESTRANHA
+            </span>
+
+            <h2>
+                Fui trocada.
+            </h2>
+
+            <p>
+                Ela terminou comigo para ficar com o primo dela...
+            </p>
+
+            <p>
+                que tinha acabado de sair da cadeia.
+            </p>
+
+            <p class="small-note">
+                Sim. Essa história é real.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================
+         NOVO COMEÇO
+    ================================== -->
+
+    <section class="story">
+
+        <div class="story-number">
+            03
+        </div>
+
+        <div class="story-content">
+
+            <span class="small-title">
+                MAS A HISTÓRIA NÃO ACABOU
+            </span>
+
+            <h2>
+                Eu fiquei.
+            </h2>
+
+            <p>
+                Apesar de tudo, eu já estava em São Paulo.
+                Então decidi continuar.
+            </p>
+
+            <p>
+                Fui morar em uma pensão,
+                comecei a reconstruir minha vida
+                e fui atrás de trabalho.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================
+         TRABALHO
+    ================================== -->
+
+    <section class="story work-section">
+
+        <div class="story-content">
+
+            <span class="small-title">
+                UM NOVO CAPÍTULO
+            </span>
+
+            <h2>
+                E eu consegui.
+            </h2>
+
+            <p>
+                Consegui meu primeiro trabalho em São Paulo
+                e comecei, aos poucos, a construir
+                uma nova versão de mim.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================
+         HOJE
+    ================================== -->
+
+    <section class="final">
+
+        <div>
+
+            <span class="small-title">
+                E HOJE...
+            </span>
+
+            <h2>
+                Eu estou<br>
+                escrevendo o<br>
+                próximo capítulo.
+            </h2>
+
+            <p>
+                Atualmente estudo
+                <strong>
+                    Análise e Desenvolvimento de Sistemas
+                </strong>
+                e continuo buscando crescer,
+                aprender e descobrir até onde posso chegar.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
