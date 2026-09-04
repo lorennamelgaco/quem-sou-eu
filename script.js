@@ -3,9 +3,8 @@
 ===================================== */
 
 const elementos = document.querySelectorAll(
-    '.story-content, .photo-text, .plot-twist > div, .final > div'
+    '.character-sheet, .story-content, .photo-text, .plot-twist > div, .final > div, .side-card'
 );
-
 
 const observer = new IntersectionObserver(
 
@@ -28,7 +27,6 @@ const observer = new IntersectionObserver(
     }
 
 );
-
 
 elementos.forEach((elemento) => {
 

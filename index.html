@@ -7,11 +7,11 @@
 
     <title>Quem sou eu?</title>
 
-    <!-- Fonte -->
+    <!-- Fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap"
         rel="stylesheet">
 
     <!-- CSS -->
@@ -26,25 +26,82 @@
 
     <section class="hero">
 
+        <svg class="compass-rose" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="100" cy="100" r="96" fill="none" stroke="#2b1d12" stroke-width="1"/>
+            <circle cx="100" cy="100" r="80" fill="none" stroke="#2b1d12" stroke-width="0.6"/>
+            <g stroke="#2b1d12" stroke-width="0.6">
+                <line x1="100" y1="4" x2="100" y2="196"/>
+                <line x1="4" y1="100" x2="196" y2="100"/>
+                <line x1="24" y1="24" x2="176" y2="176"/>
+                <line x1="176" y1="24" x2="24" y2="176"/>
+            </g>
+            <polygon points="100,20 112,100 100,180 88,100" fill="#2b1d12"/>
+            <polygon points="20,100 100,88 180,100 100,112" fill="#2b1d12" opacity="0.5"/>
+            <text x="100" y="16" text-anchor="middle" font-family="Cinzel, serif" font-size="12" fill="#2b1d12">N</text>
+            <text x="100" y="192" text-anchor="middle" font-family="Cinzel, serif" font-size="12" fill="#2b1d12">S</text>
+            <text x="10" y="104" text-anchor="middle" font-family="Cinzel, serif" font-size="12" fill="#2b1d12">O</text>
+            <text x="190" y="104" text-anchor="middle" font-family="Cinzel, serif" font-size="12" fill="#2b1d12">L</text>
+        </svg>
+
         <div class="hero-content">
 
-            <span class="small-title">
-                QUEM SOU EU?
-            </span>
+            <span class="stamp-label">QUEM SOU EU</span>
 
             <h1>
-                Minha<br>
-                história.
+                Diário de<br>
+                uma jornada.
             </h1>
 
             <p>
-                Uma pequena viagem pela pessoa que eu me tornei.
+                Um mapa pela pessoa que eu me tornei.
             </p>
 
         </div>
 
         <div class="scroll">
-            ↓ ROLE PARA CONTINUAR ↓
+            role o mapa ↓
+        </div>
+
+    </section>
+
+
+    <!-- =================================
+         FICHA DA AVENTUREIRA
+    ================================== -->
+
+    <section class="sheet-section">
+
+        <div class="character-sheet">
+
+            <div class="wax-seal">30</div>
+
+            <h2 class="sheet-title">Ficha da aventureira</h2>
+            <p class="sheet-subtitle">antes do mapa, os atributos de quem parte em viagem</p>
+
+            <div class="sheet-grid">
+
+                <div class="sheet-item">
+                    <span class="label">Nível</span>
+                    <span class="value">30 anos</span>
+                </div>
+
+                <div class="sheet-item">
+                    <span class="label">Signo</span>
+                    <span class="value">♐ Sagitário</span>
+                </div>
+
+                <div class="sheet-item">
+                    <span class="label">Origem</span>
+                    <span class="value">Brasília</span>
+                </div>
+
+                <div class="sheet-item">
+                    <span class="label">Classe em treinamento</span>
+                    <span class="value">Análise e Desenvolvimento de Sistemas</span>
+                </div>
+
+            </div>
+
         </div>
 
     </section>
@@ -58,11 +115,9 @@
 
         <div class="photo-overlay">
 
-            <div class="photo-text">
+            <span class="postmark">cap. 01</span>
 
-                <span class="small-title">
-                    CAPÍTULO 01
-                </span>
+            <div class="photo-text">
 
                 <h2>
                     Eu vim de Brasília.
@@ -88,15 +143,11 @@
 
     <section class="story">
 
-        <div class="story-number">
-            01
-        </div>
-
         <div class="story-content">
 
-            <span class="small-title">
-                A DECISÃO
-            </span>
+            <div class="chapter-stamp">II</div>
+
+            <span class="stamp-label">A decisão</span>
 
             <h2>
                 Então eu fiz uma coisa meio maluca.
@@ -123,6 +174,8 @@
     <section class="photo-section onibus">
 
         <div class="photo-overlay">
+
+            <span class="postmark">rota</span>
 
             <div class="photo-text">
 
@@ -151,15 +204,11 @@
 
     <section class="story love-section">
 
-        <div class="story-number">
-            02
-        </div>
-
         <div class="story-content">
 
-            <span class="small-title">
-                O MOTIVO
-            </span>
+            <div class="chapter-stamp">III</div>
+
+            <span class="stamp-label">O motivo</span>
 
             <h2>
                 ❤️ Eu vim por amor.
@@ -183,9 +232,7 @@
 
         <div>
 
-            <span class="dramatic">
-                ⚠️ PLOT TWIST
-            </span>
+            <span class="warning-stamp">⚠ plot twist</span>
 
             <h2>
                 Só que...
@@ -209,9 +256,7 @@
 
         <div>
 
-            <span class="dramatic">
-                E AQUI A HISTÓRIA FICA ESTRANHA
-            </span>
+            <span class="warning-stamp">e aqui a história fica estranha</span>
 
             <h2>
                 Fui trocada.
@@ -240,15 +285,11 @@
 
     <section class="story">
 
-        <div class="story-number">
-            03
-        </div>
-
         <div class="story-content">
 
-            <span class="small-title">
-                MAS A HISTÓRIA NÃO ACABOU
-            </span>
+            <div class="chapter-stamp">IV</div>
+
+            <span class="stamp-label">Mas a história não acabou</span>
 
             <h2>
                 Eu fiquei.
@@ -278,9 +319,9 @@
 
         <div class="story-content">
 
-            <span class="small-title">
-                UM NOVO CAPÍTULO
-            </span>
+            <div class="chapter-stamp">V</div>
+
+            <span class="stamp-label">Um novo capítulo</span>
 
             <h2>
                 E eu consegui.
@@ -298,6 +339,150 @@
 
 
     <!-- =================================
+         MISSÕES PARALELAS
+    ================================== -->
+
+    <section class="sidequests-section">
+
+        <div class="sidequests-header">
+            <span class="stamp-label">Fora da missão principal</span>
+            <h2>O resto do inventário</h2>
+        </div>
+
+        <div class="sidequests-grid">
+
+            <!-- NINJA / NARUTO -->
+            <div class="side-card ninja large">
+                <svg class="icon" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 4 C20 4 34 6 34 20 C34 28 27 34 20 34 C13 34 8 29 8 23 C8 18 12 15 16 15 C19 15 21 17 21 20 C21 22 19.5 23 18 23"/>
+                </svg>
+                <span class="tag">Artefato lendário</span>
+                <h3>Afinidade ninja</h3>
+                <p>
+                    Naruto não é só anime favorito — é tatuagem no braço inteiro
+                    e uma coleção de figures que só cresce. Referência número um.
+                </p>
+            </div>
+
+            <!-- CODEX DE ANIMES -->
+            <div class="side-card small">
+                <svg class="icon" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="8" y="6" width="24" height="28" rx="1"/>
+                    <line x1="13" y1="13" x2="27" y2="13"/>
+                    <line x1="13" y1="19" x2="27" y2="19"/>
+                    <line x1="13" y1="25" x2="21" y2="25"/>
+                </svg>
+                <span class="tag">Codex</span>
+                <h3>Animes favoritos</h3>
+                <div class="codex-list">
+                    <span class="codex-slot">+ adicionar</span>
+                    <span class="codex-slot">+ adicionar</span>
+                    <span class="codex-slot">+ adicionar</span>
+                    <span class="codex-slot">+ adicionar</span>
+                </div>
+            </div>
+
+            <!-- PC GAMER -->
+            <div class="side-card small">
+                <svg class="icon" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="6" y="12" width="28" height="18" rx="2"/>
+                    <circle cx="14" cy="21" r="2.4"/>
+                    <line x1="24" y1="18" x2="28" y2="18"/>
+                    <line x1="24" y1="24" x2="28" y2="24"/>
+                    <line x1="16" y1="34" x2="24" y2="34"/>
+                </svg>
+                <span class="tag">Missão em andamento</span>
+                <h3>Montando o PC gamer</h3>
+                <p>Presente de aventureira pra ela mesma — em progresso.</p>
+            </div>
+
+            <!-- BESTIÁRIO -->
+            <div class="side-card large">
+                <span class="tag">Bestiário</span>
+                <h3>Companheiros de jornada</h3>
+
+                <div class="bestiary-row">
+
+                    <div class="bestiary-item">
+                        <svg class="icon" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" stroke="#2b1d12" fill="none" stroke-width="1.4">
+                            <path d="M10 30 C8 20 10 12 14 10 L15 15 L20 12 L25 15 L26 10 C30 12 32 20 30 30 C27 33 13 33 10 30 Z"/>
+                            <circle cx="16" cy="21" r="1.2" fill="#2b1d12"/>
+                            <circle cx="24" cy="21" r="1.2" fill="#2b1d12"/>
+                        </svg>
+                        <span>Gato</span>
+                    </div>
+
+                    <div class="bestiary-item">
+                        <svg class="icon" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" stroke="#2b1d12" fill="none" stroke-width="1.4">
+                            <ellipse cx="20" cy="24" rx="12" ry="8"/>
+                            <path d="M10 20 C8 14 12 10 15 12 L16 18"/>
+                            <path d="M30 20 C32 14 28 10 25 12 L24 18"/>
+                            <circle cx="16" cy="23" r="1.2" fill="#2b1d12"/>
+                            <circle cx="24" cy="23" r="1.2" fill="#2b1d12"/>
+                        </svg>
+                        <span>Cachorro</span>
+                    </div>
+
+                    <div class="bestiary-item">
+                        <svg class="icon" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" stroke="#2b1d12" fill="none" stroke-width="1.4">
+                            <ellipse cx="20" cy="23" rx="11" ry="9"/>
+                            <circle cx="13" cy="19" r="1.1" fill="#2b1d12"/>
+                        </svg>
+                        <span>Porquinho da índia</span>
+                    </div>
+
+                    <div class="bestiary-item">
+                        <svg class="icon" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" stroke="#2b1d12" fill="none" stroke-width="1.4">
+                            <ellipse cx="20" cy="26" rx="10" ry="7"/>
+                            <path d="M15 19 C13 10 17 8 17 15"/>
+                            <path d="M23 19 C25 10 21 8 21 15"/>
+                            <circle cx="15" cy="25" r="1.1" fill="#2b1d12"/>
+                        </svg>
+                        <span>Coelho</span>
+                    </div>
+
+                    <div class="bestiary-item">
+                        <svg class="icon" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" stroke="#2b1d12" fill="none" stroke-width="1.4">
+                            <path d="M8 28 C8 20 12 12 20 12 C24 12 24 16 27 16 C30 16 30 12 32 12 L30 18 C33 19 33 24 30 25 L28 30"/>
+                            <line x1="14" y1="28" x2="14" y2="33"/>
+                            <line x1="24" y1="28" x2="24" y2="33"/>
+                        </svg>
+                        <span>Cavalo</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- PARTY / CO-OP -->
+            <div class="side-card party small">
+                <svg class="icon" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" stroke="#2b1d12" fill="none" stroke-width="1.4">
+                    <path d="M20 32 C10 25 6 18 11 13 C14 10 18 11 20 15 C22 11 26 10 29 13 C34 18 30 25 20 32 Z"/>
+                </svg>
+                <span class="tag">Party — modo coop</span>
+                <h3>Mayara</h3>
+                <p>Juntas há 3 anos, dividindo o mesmo mapa (e a mesma casa).</p>
+            </div>
+
+            <!-- PRÓXIMA EXPEDIÇÃO -->
+            <div class="side-card quest small">
+                <svg class="icon" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" stroke="#2d4a43" fill="none" stroke-width="1.4">
+                    <line x1="6" y1="14" x2="34" y2="14"/>
+                    <line x1="10" y1="14" x2="10" y2="32"/>
+                    <line x1="30" y1="14" x2="30" y2="32"/>
+                    <path d="M6 14 C6 8 34 8 34 14"/>
+                    <line x1="20" y1="6" x2="20" y2="10"/>
+                </svg>
+                <span class="tag">Próxima expedição</span>
+                <h3>Japão</h3>
+                <p>Sonho de intercâmbio e vontade antiga de conhecer a cultura japonesa de perto.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================
          HOJE
     ================================== -->
 
@@ -305,9 +490,7 @@
 
         <div>
 
-            <span class="small-title">
-                E HOJE...
-            </span>
+            <span class="stamp-label">E hoje</span>
 
             <h2>
                 Eu estou<br>
@@ -317,9 +500,7 @@
 
             <p>
                 Atualmente estudo
-                <strong>
-                    Análise e Desenvolvimento de Sistemas
-                </strong>
+                <strong>Análise e Desenvolvimento de Sistemas</strong>
                 e continuo buscando crescer,
                 aprender e descobrir até onde posso chegar.
             </p>
