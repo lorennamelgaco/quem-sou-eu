@@ -614,8 +614,19 @@ section {
     align-self: center;
 }
 
-.ninja-gif-wrap + .ninja-gif-wrap {
-    margin-top: 4px;
+.ninja-gif-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+}
+
+.ninja-gif-row + .ninja-gif-row {
+    margin-top: 10px;
+}
+
+.ninja-gif-row .ninja-gif-wrap {
+    max-width: none;
 }
 
 .card-gif-wrap {
