@@ -652,6 +652,10 @@ section {
     margin-top: 6px;
 }
 
+.codex-list-wide {
+    grid-template-columns: repeat(3, 1fr);
+}
+
 .codex-filled {
     display: flex;
     flex-direction: column;
@@ -747,6 +751,9 @@ section {
     .bestiary-row {
         grid-template-columns: repeat(3, 1fr);
         row-gap: 22px;
+    }
+    .codex-list-wide {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
